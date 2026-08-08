@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Élite KZ Taxi — service de taxi premium à Lyon, transferts aéroport, gares, trajets longue distance et déplacements professionnels.">
+  <title>Élite KZ Taxi — Lyon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#accueil" aria-label="Élite KZ Taxi">
+    <span class="brand-kz">KZ</span><span class="brand-taxi">TAXI</span>
+  </a>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#reservation">Réserver</a>
+    <a href="#apropos">À propos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="nav-phone" href="tel:+33000000000">06 00 00 00 00</a>
+</header>
+
+<main>
+<section id="accueil" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">ÉLITE KZ TAXI · LYON</p>
+    <h1>Votre trajet,<br><em>au niveau supérieur.</em></h1>
+    <p class="hero-copy">Un service de taxi premium à Lyon et dans toute la région. Ponctualité, confort et discrétion à chaque trajet.</p>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="#reservation">Réserver un trajet <span>→</span></a>
+      <a class="btn btn-outline" href="tel:+33000000000">Appeler</a>
+    </div>
+    <div class="availability"><span>◷</span> Disponible 24h/24 · 7j/7</div>
+  </div>
+</section>
+
+<section id="reservation" class="booking">
+  <div class="booking-intro">
+    <p class="eyebrow">RÉSERVATION</p>
+    <h2>Réservez votre taxi</h2>
+    <p>Indiquez votre trajet. Nous vous recontactons rapidement pour confirmer la course et son tarif.</p>
+    <div class="trust">
+      <div><b>✓</b><span>Chauffeur professionnel</span></div>
+      <div><b>✓</b><span>Service personnalisé</span></div>
+      <div><b>✓</b><span>Paiement sécurisé</span></div>
+    </div>
+  </div>
+  <form id="bookingForm" class="booking-form">
+    <label>Départ<input required name="depart" placeholder="Adresse de départ"></label>
+    <label>Destination<input required name="destination" placeholder="Adresse de destination"></label>
+    <label>Date<input required type="date" name="date"></label>
+    <label>Heure<input required type="time" name="heure"></label>
+    <label>Passagers<select name="passagers"><option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option></select></label>
+    <label>Bagages<select name="bagages"><option>0</option><option>1</option><option>2</option><option>3</option><option>4+</option></select></label>
+    <label class="full">Nom<input required name="nom" placeholder="Votre nom"></label>
+    <label class="full">Téléphone<input required type="tel" name="telephone" placeholder="06 00 00 00 00"></label>
+    <button class="btn btn-dark full" type="submit">Demander ma réservation <span>→</span></button>
+    <p id="formMessage" class="form-message" role="status"></p>
+  </form>
+</section>
+
+<section id="services" class="services">
+  <div class="section-head"><p class="eyebrow">NOS SERVICES</p><h2>Une expérience pensée<br>pour votre confort.</h2></div>
+  <div class="service-grid">
+    <article><span>01</span><h3>Aéroport</h3><p>Transferts depuis et vers l'aéroport Lyon-Saint-Exupéry.</p></article>
+    <article><span>02</span><h3>Gares</h3><p>Part-DIeu, Perrache et gares de la région.</p></article>
+    <article><span>03</span><h3>Professionnels</h3><p>Déplacements d'affaires, rendez-vous et mise à disposition.</p></article>
+    <article><span>04</span><h3>Longues distances</h3><p>Voyagez partout en France dans un cadre confortable.</p></article>
+    <article><span>05</span><h3>Événements</h3><p>Une solution élégante pour vos événements et réceptions.</p></article>
+    <article><span>06</span><h3>Mise à disposition</h3><p>Votre chauffeur à votre disposition pour quelques heures ou une journée.</p></article>
+  </div>
+</section>
+
+<section id="apropos" class="about">
+  <div class="about-image"></div>
+  <div class="about-copy">
+    <p class="eyebrow">À PROPOS D'ÉLITE KZ TAXI</p>
+    <h2>Exigence, discrétion, excellence.</h2>
+    <p>Élite KZ Taxi accompagne vos déplacements à Lyon avec une approche simple : un véhicule soigné, un service ponctuel et une attention portée à chaque détail.</p>
+    <ul>
+      <li>Chauffeurs professionnels et expérimentés</li>
+      <li>Véhicules récents et confortables</li>
+      <li>Service ponctuel et personnalisé</li>
+      <li>Trajets locaux et longue distance</li>
+    </ul>
+  </div>
+</section>
+
+<section class="cta">
+  <p class="eyebrow">ÉLITE KZ TAXI</p>
+  <h2>Votre prochaine destination<br><em>commence ici.</em></h2>
+  <a class="btn btn-gold" href="#reservation">Réserver un trajet <span>→</span></a>
+</section>
+</main>
+
+<footer id="contact">
+  <div class="footer-brand"><span class="brand-kz">KZ</span><span class="brand-taxi">TAXI</span></div>
+  <div><p class="footer-title">Contact</p><a href="tel:+33000000000">06 00 00 00 00</a><a href="mailto:contact@elitekztaxi.fr">contact@elitekztaxi.fr</a></div>
+  <div><p class="footer-title">Zone</p><p>Lyon · Rhône-Alpes<br>France</p></div>
+  <div><p class="footer-title">Disponibilité</p><p>24h/24 · 7j/7</p></div>
+  <div class="copyright">© 2026 Élite KZ Taxi — Tous droits réservés.</div>
+</footer>
+
+<script>
+document.querySelector('input[type="date"]').min = new Date().toISOString().split('T')[0];
+document.getElementById('bookingForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const data = new FormData(this);
+  const message = document.getElementById('formMessage');
+  message.textContent = `Merci ${data.get('nom')}. Votre demande pour ${data.get('depart')} → ${data.get('destination')} est prête à être confirmée.`;
+  this.reset();
+});
+</script>
+</body>
+</html>
